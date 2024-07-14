@@ -1,0 +1,39 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\ue_project\\plugindev\\plugins\\browser\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\browser\\module.browser.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\ue_project\\plugindev\\intermediate\\build\\win64\\x64\\plugindeveditor\\development\\unrealed\\sharedpch.unrealed.cpp20.h.pch",
+        "Includes": [
+            "c:\\ue_project\\plugindev\\plugins\\browser\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\browser\\definitions.browser.h",
+            "c:\\ue_project\\plugindev\\plugins\\browser\\source\\browser\\private\\browser.cpp",
+            "c:\\ue_project\\plugindev\\plugins\\browser\\source\\browser\\public\\browser.h",
+            "c:\\ue_project\\plugindev\\plugins\\browser\\source\\browser\\public\\browserstyle.h",
+            "c:\\ue_project\\plugindev\\plugins\\browser\\source\\browser\\public\\browsercommands.h",
+            "c:\\ue_project\\plugindev\\plugins\\browser\\source\\browser\\private\\localbrowser.h",
+            "c:\\ue\\ue_5.3\\engine\\source\\runtime\\webbrowser\\public\\swebbrowserview.h",
+            "c:\\ue\\ue_5.3\\engine\\source\\runtime\\slate\\public\\widgets\\sviewport.h",
+            "c:\\ue\\ue_5.3\\engine\\source\\runtime\\webbrowser\\public\\iwebbrowsersingleton.h",
+            "c:\\ue\\ue_5.3\\engine\\source\\runtime\\webbrowser\\public\\iwebbrowserresourceloader.h",
+            "c:\\ue\\ue_5.3\\engine\\source\\runtime\\webbrowser\\public\\swebbrowser.h",
+            "c:\\ue_project\\plugindev\\plugins\\browser\\source\\browser\\private\\browsercommands.cpp",
+            "c:\\ue_project\\plugindev\\plugins\\browser\\source\\browser\\private\\browserstyle.cpp",
+            "c:\\ue\\ue_5.3\\engine\\source\\runtime\\slatecore\\public\\styling\\slatestyleregistry.h",
+            "c:\\ue\\ue_5.3\\engine\\source\\runtime\\engine\\public\\slate\\slategameresources.h",
+            "c:\\ue\\ue_5.3\\engine\\source\\runtime\\projects\\public\\interfaces\\ipluginmanager.h",
+            "c:\\ue\\ue_5.3\\engine\\source\\runtime\\projects\\public\\plugindescriptor.h",
+            "c:\\ue\\ue_5.3\\engine\\source\\runtime\\projects\\public\\custombuildsteps.h",
+            "c:\\ue\\ue_5.3\\engine\\source\\runtime\\projects\\public\\localizationdescriptor.h",
+            "c:\\ue\\ue_5.3\\engine\\source\\runtime\\projects\\public\\moduledescriptor.h",
+            "c:\\ue\\ue_5.3\\engine\\source\\runtime\\projects\\public\\pluginreferencedescriptor.h",
+            "c:\\ue\\ue_5.3\\engine\\source\\runtime\\projects\\public\\versescope.h",
+            "c:\\ue\\ue_5.3\\engine\\source\\runtime\\slatecore\\public\\styling\\slatestylemacros.h",
+            "c:\\ue_project\\plugindev\\plugins\\browser\\source\\browser\\private\\localbrowser.cpp",
+            "c:\\ue\\ue_5.3\\engine\\source\\runtime\\webbrowser\\public\\webbrowsermodule.h",
+            "c:\\ue\\ue_5.3\\engine\\source\\runtime\\webbrowser\\public\\iwebbrowserpopupfeatures.h",
+            "c:\\ue\\ue_5.3\\engine\\source\\runtime\\webbrowser\\public\\iwebbrowserwindow.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

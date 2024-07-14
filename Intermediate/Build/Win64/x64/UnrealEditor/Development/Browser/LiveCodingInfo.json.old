@@ -1,0 +1,10 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.Browser.cpp.obj": [
+			"Browser.cpp.obj",
+			"BrowserCommands.cpp.obj",
+			"BrowserStyle.cpp.obj"
+		]
+	}
+}
