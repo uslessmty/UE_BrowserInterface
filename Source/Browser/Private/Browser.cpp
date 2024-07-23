@@ -8,6 +8,7 @@
 #include "Widgets/Layout/SBox.h"
 #include "Widgets/Text/STextBlock.h"
 #include "ToolMenus.h"
+#include"STestEditorViewport.h"
 
 static const FName BrowserTabName("Browser");
 
@@ -55,22 +56,28 @@ void FBrowserModule::ShutdownModule()
 TSharedRef<SDockTab> FBrowserModule::OnSpawnPluginTab(const FSpawnTabArgs& SpawnTabArgs)
 {
 	
-	return SNew(SDockTab)
+	auto tab = SNew(SDockTab)
 		.TabRole(ETabRole::NomadTab)
 		[
 			// Put your tab content here!
-			SNew(SBox)
-			.HAlign(HAlign_Center)
-			.VAlign(VAlign_Center)
+			SNew(SOverlay)
+			+SOverlay::Slot()
+			[
+				SNew(STestEditorViewport)
+			]
+			+SOverlay::Slot()
 			[
 				SNew(SLocalBrowser)
-					.InitialURL(TEXT("https://www.baidu.com"))
+					.InitialURL(TEXT("http://localhost:5173/"))
 					.FrameRate(60)
 					.EnableMouseTransparency(true)
 					.MouseTransparencyThreshold(0.33)
-					.MouseTransparencyDelay(0.1)
+					.MouseTransparencyDelay(0.01)
 			]
 		];
+
+	
+	return tab;
 }
 
 void FBrowserModule::PluginButtonClicked()

@@ -4,7 +4,9 @@
 		"Module.Browser.cpp.obj": [
 			"Browser.cpp.obj",
 			"BrowserCommands.cpp.obj",
-			"BrowserStyle.cpp.obj"
+			"BrowserStyle.cpp.obj",
+			"LocalBrowser.cpp.obj",
+			"STestEditorViewport.cpp.obj"
 		]
 	}
 }

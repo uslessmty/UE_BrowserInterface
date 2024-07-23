@@ -5,7 +5,9 @@
 			"Browser.cpp.obj",
 			"BrowserCommands.cpp.obj",
 			"BrowserStyle.cpp.obj",
-			"LocalBrowser.cpp.obj"
+			"FTestViewportClient.cpp.obj",
+			"LocalBrowser.cpp.obj",
+			"STestEditorViewport.cpp.obj"
 		]
 	}
 }

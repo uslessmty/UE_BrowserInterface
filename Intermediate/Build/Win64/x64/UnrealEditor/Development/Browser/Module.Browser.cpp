@@ -2,4 +2,6 @@
 #include "C:/UE_PROJECT/PluginDev/Plugins/Browser/Source/Browser/Private/Browser.cpp"
 #include "C:/UE_PROJECT/PluginDev/Plugins/Browser/Source/Browser/Private/BrowserCommands.cpp"
 #include "C:/UE_PROJECT/PluginDev/Plugins/Browser/Source/Browser/Private/BrowserStyle.cpp"
+#include "C:/UE_PROJECT/PluginDev/Plugins/Browser/Source/Browser/Private/FTestViewportClient.cpp"
 #include "C:/UE_PROJECT/PluginDev/Plugins/Browser/Source/Browser/Private/LocalBrowser.cpp"
+#include "C:/UE_PROJECT/PluginDev/Plugins/Browser/Source/Browser/Private/STestEditorViewport.cpp"
